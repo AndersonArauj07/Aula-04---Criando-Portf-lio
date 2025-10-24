@@ -7,10 +7,47 @@
 }
 
 .subtitulo {
-    color: #39393c;
+    color: white;
 }
 
 .container {
-    background-color: aquamarine;
+    background-color: black;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#minha-foto {
+    height: 350px;
+    border: 2px solid white;
+    border-radius: 50px;
+   
+}
+
+.botao1 {
+    background-color: #3871a7;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid white ;
+    border-radius: 5px;
+
+}
+
+.botao2 {background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
